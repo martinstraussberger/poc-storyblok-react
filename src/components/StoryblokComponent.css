@@ -1,0 +1,20 @@
+textarea {
+    text-align: left;
+    width: 60%;
+    resize: vertical;
+}
+
+img {
+    width: 60%;
+    box-shadow: 0px 0px 20px 0px #ccc;
+}
+
+.custom-component {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 1rem;
+}

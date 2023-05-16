@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
-function App() {
+import { StoryblokComponent } from './components/StoryblokComponent';
+import { Hero } from './components/Hero';
+import { JsonDataExample } from './dynamic-components/JsonDataExample';
+
+// Tailwind Example
+import './styles/index.css';
+
+
+export const App = () => {
+  const [change, setOnChange] = useState('');
+
+  const handleChange = (event) => {
+    setOnChange(event.target.value);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <StoryblokComponent onChange={handleChange} value={change} />
+      <Hero />
+      <JsonDataExample />
     </div>
   );
-}
-
-export default App;
+};
