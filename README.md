@@ -4,8 +4,8 @@ This repository serves as a small Proof of Concept (POC) for utilizing Storyblok
 
 ## Features
 
--   Custom components: can be edited and managed through the Storyblok Visual Editor. These components provide flexibility and allow designers, the marketing team, or other departments to manually edit the content without the help on developers. Which reduces the workload on the Developer Team.
--   Developer: ownership of the codebase while enabling non-technical teams to make content changes. It streamlines the content management process, empowering different departments to update and modify the website content.
+-   **Custom components**: can be edited and managed through the Storyblok Visual Editor. These components provide flexibility and allow designers, the marketing team, or other departments to manually edit the content without the help on developers. Which reduces the workload on the Developer Team.
+-   **Developer**: ownership of the codebase while enabling non-technical teams to make content changes. It streamlines the content management process, empowering different departments to update and modify the website content.
 
 ## Getting Started
 
